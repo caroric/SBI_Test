@@ -25,7 +25,6 @@ namespace SBI_API.Controllers
         [HttpGet]
         public async Task<Salida> Get([FromQuery]int id)
         {
-            //Task<List<Models.ServerPost>>
             Salida salida = null;
             try
             {
